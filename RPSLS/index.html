@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title>RPSLS</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>RPSLS</h1>
+                        <h4>Rock, paper, scissors, lizard, Spock</h4>
+                        <hr class="intro-divider">
+                        <h3>Choose your shape:</h3>
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                            <label for="rock">Rock</label>
+                            <input type="radio" name="choice" id="rock" value="Rock" checked  class="btn btn-default btn-lg"/><br>
+                            </li>
+                            <li>
+                            <label for="paper">Paper</label>
+                            <input type="radio" name="choice" id="paper" value="Paper" class="btn btn-default btn-lg"/><br>                            
+                            </li>
+                            <li>
+                            <label for="scissors">Scissors</label>
+                            <input type="radio" name="choice" id="scissors" value="Scissors" class="btn btn-default btn-lg"/><br>                             
+                            </li>
+                            <li>
+                            <label for="lizard">Lizard</label>
+                            <input type="radio" name="choice" id="lizard" value="Lizard" class="btn btn-default btn-lg"/><br>                            
+                            </li>
+                            <li>
+                            <label for="spock">Spock</label>
+                            <input type="radio" name="choice" id="spock" value="Spock" class="btn btn-default btn-lg"/><br>                             
+                            </li>
+                        </ul>
+                       
+                        <input type="button" name="btnPlay" value="Play" id="btnPlay" onclick="play()" class="btn btn-default btn-lg"/>
+                         <hr class="intro-divider">
+
+                        <p class="result">Sheldon's choice:</p>
+                        <p id="comp" class="result">Not chosen yet</p><br>
+
+                        <p class="result">Result:</p>
+                        <p id="res" class="result">Not a single game played yet</p><br>
+
+                        <p class="result">Standings:</p>
+                        <p id="standing" class="result">You 0 : 0 Sheldon</p><br>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+    
+                    <p class="copyright text-muted small">Copyright &copy; Allright</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
