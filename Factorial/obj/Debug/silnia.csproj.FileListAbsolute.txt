@@ -1,0 +1,12 @@
+D:\kody\C#\silnia\bin\Debug\silnia.exe.config
+D:\kody\C#\silnia\bin\Debug\silnia.exe
+D:\kody\C#\silnia\bin\Debug\silnia.pdb
+D:\kody\C#\silnia\obj\Debug\silnia.csprojResolveAssemblyReference.cache
+D:\kody\C#\silnia\obj\Debug\silnia.exe
+D:\kody\C#\silnia\obj\Debug\silnia.pdb
+D:\kody\C#\Factorial\bin\Debug\silnia.exe.config
+D:\kody\C#\Factorial\obj\Debug\silnia.exe
+D:\kody\C#\Factorial\obj\Debug\silnia.pdb
+D:\kody\C#\Factorial\bin\Debug\silnia.exe
+D:\kody\C#\Factorial\bin\Debug\silnia.pdb
+D:\kody\C#\Factorial\obj\Debug\silnia.csprojResolveAssemblyReference.cache
